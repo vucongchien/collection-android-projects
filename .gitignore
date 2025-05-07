@@ -1,0 +1,60 @@
+# Thư mục build (không cần đưa lên GitHub)
+**/build/
+
+# Thư mục .gradle (tự sinh ra khi build)
+.gradle/
+
+# Cấu hình cá nhân của Android Studio
+.idea/
+*.iml
+
+# File cấu hình môi trường local
+local.properties
+
+# Các tệp hệ điều hành
+.DS_Store
+Thumbs.db
+
+# Các file tạm do Gradle sinh ra
+.gradle/
+build/
+captures/
+.externalNativeBuild/
+
+# Các file được tạo khi sync hoặc build
+.cxx/
+*.apk
+*.ap_
+*.dex
+*.class
+*.jar
+*.war
+*.ear
+
+# Tệp hệ thống (nếu dùng Windows)
+*.log
+*.bat
+*.swp
+
+# Tệp signing (nếu có)
+*.jks
+*.keystore
+
+# Cache của Android Studio
+.cxx/
+.idea/caches
+.idea/libraries
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+
+# Lint
+lint/intermediates/
+lint/generated/
+
+# NDK
+.externalNativeBuild/
+
+# File test reports
+/test-results/
