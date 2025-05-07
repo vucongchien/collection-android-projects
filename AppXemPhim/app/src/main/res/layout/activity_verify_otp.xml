@@ -1,0 +1,43 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/otpLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#1c0b2b">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Verification code"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:layout_marginBottom="20dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="20dp">
+
+        <EditText android:id="@+id/otp1" style="@style/OtpBox"/>
+        <EditText android:id="@+id/otp2" style="@style/OtpBox"/>
+        <EditText android:id="@+id/otp3" style="@style/OtpBox"/>
+        <EditText android:id="@+id/otp4" style="@style/OtpBox"/>
+        <EditText android:id="@+id/otp5" style="@style/OtpBox"/>
+        <EditText android:id="@+id/otp6" style="@style/OtpBox"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnVerify"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Verify"
+        android:textColor="#fff"
+        android:backgroundTint="#e7682c"
+        android:paddingHorizontal="24dp"
+        android:paddingVertical="10dp"
+        android:layout_marginTop="10dp"/>
+</LinearLayout>

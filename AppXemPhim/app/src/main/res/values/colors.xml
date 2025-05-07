@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Core Material Colors (Light Theme) -->
+    <color name="colorPrimary">#1E88E5</color>            <!-- deep blue -->
+    <color name="colorPrimaryVariant">#1565C0</color>     <!-- darker blue -->
+    <color name="colorSecondary">#FFC107</color>          <!-- amber -->
+    <color name="colorSecondaryVariant">#FFB300</color>   <!-- darker amber -->
+    <color name="colorBackground">#FFFFFF</color>
+    <color name="colorSurface">#F5F5F5</color>
+    <color name="colorError">#B00020</color>
+
+    <!-- On-color roles -->
+    <color name="onPrimary">#FFFFFF</color>
+    <color name="onSecondary">#000000</color>
+    <color name="onBackground">#1C1B1F</color>
+    <color name="onSurface">#1C1B1F</color>
+    <color name="onError">#FFFFFF</color>
+
+    <!-- Chip View Colors - Light Theme -->
+    <color name="colorChipBackground">#FFF8E1</color>     <!-- pale amber -->
+    <color name="colorChipSelected">#FFB300</color>       <!-- dark amber -->
+    <color name="onChipBackground">#212121</color>        <!-- dark gray text/icons -->
+    <color name="onChipSelected">#000000</color>          <!-- black on selected chip -->
+    <color name="colorChipBorder">#FFE082</color>         <!-- soft amber border -->
+
+    <!-- Button Colors - Light Theme -->
+    <color name="colorButtonPrimary">#1E88E5</color>      <!-- deep blue -->
+    <color name="onButtonPrimary">#FFFFFF</color>         <!-- white text -->
+
+    <color name="colorButtonSecondary">#FFC107</color>    <!-- amber -->
+    <color name="onButtonSecondary">#000000</color>       <!-- black text -->
+
+    <color name="colorButtonDisabled">#E0E0E0</color>     <!-- light gray -->
+    <color name="onButtonDisabled">#9E9E9E</color>        <!-- medium gray text -->
+
+    <!-- Custom App Colors for Movie Streaming UX -->
+    <!-- Overlay gradient for movie posters (50% white) -->
+    <color name="colorPosterOverlay">#80FFFFFF</color>
+    <!-- Subtitles: dark semi-transparent for readability -->
+    <color name="colorSubtitleText">#99000000</color>
+    <!-- Top app bar -->
+    <color name="colorAppBar">#FFFFFF</color>
+    <!-- Bottom navigation bar -->
+    <color name="colorBottomNav">#FFFFFF</color>
+    <!-- Movie item card background -->
+    <color name="colorCardBackground">#FFFFFF</color>
+    <!-- Progress/loading indicator accent -->
+    <color name="colorProgressBar">#1E88E5</color>        <!-- same as primary -->
+    <!-- Hover/focus/highlight accents -->
+    <color name="colorHighlight">#BBDEFB</color>          <!-- light blue accent -->
+</resources>
